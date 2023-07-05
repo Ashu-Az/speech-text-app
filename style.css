@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 10px solid goldenrod;
+  background: linear-gradient(to bottom, #aa96da, #c5fad5, #ffffd2);
+}
+div {
+  background-color: #ffffff;
+}
+
+#result {
+  width: 300px;
+  height: 90px;
+  border: 5px solid yellowgreen;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#record-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #99f443;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#record-button.recording {
+  background-color: green;
+}
